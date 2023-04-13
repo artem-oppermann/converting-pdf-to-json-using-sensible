@@ -2,8 +2,8 @@ import json
 import requests
 
 
-# The name of a document type in Sensible, e.g., "tax_forms_1040_2018"
-DOCUMENT_TYPE = "tax_forms_1040_2018"
+# The name of a document type in Sensible, such as "tax_document"
+DOCUMENT_TYPE = "tax_document"
 # The path to the PDF you'd like to extract from
 DOCUMENT_PATH = "PATH/TO/PDF/1040_2018_sample.pdf"
 # Your Sensible API key
