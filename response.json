@@ -1,0 +1,169 @@
+{
+  "id": "f21c807e-bdad-4198-99f8-94e48a228fd2",
+  "created": "2023-06-22T07:02:29.284Z",
+  "completed": "2023-06-22T07:02:42.357Z",
+  "status": "COMPLETE",
+  "type": "tax_document",
+  "configuration": "tax_form_reference",
+  "environment": "development",
+  "page_count": 2,
+  "parsed_document": {
+    "year": {
+      "type": "string",
+      "value": "2018"
+    },
+    "filing_status.single": {
+      "type": "boolean",
+      "value": false
+    },
+    "filing_status.marrid_filing_jointly": {
+      "type": "boolean",
+      "value": false
+    },
+    "filing_status.marrid_filing_separately": {
+      "type": "boolean",
+      "value": false
+    },
+    "filing_status.head_of_household": {
+      "type": "boolean",
+      "value": true
+    },
+    "filing_status.qualifying_widow": {
+      "type": "boolean",
+      "value": false
+    },
+    "name": {
+      "type": "string",
+      "value": "Gemanna Gomez"
+    },
+    "ssn": {
+      "type": "string",
+      "value": "111-22-3333"
+    },
+    "spouse_name": null,
+    "spouse_ssn": null,
+    "home_street_address": {
+      "type": "string",
+      "value": "13434 Doe Street"
+    },
+    "home_apartment_number": null,
+    "home_city_state_zipcode": {
+      "type": "string",
+      "value": "San Francisco CA 92694"
+    },
+    "wages_salaries_tips": null,
+    "tax_exempt_interest": null,
+    "taxable_interest": null,
+    "qualified_dividends": null,
+    "ordinary_dividends": null,
+    "ira_distributions": null,
+    "ira_distributions_taxable_amount": null,
+    "pensions_and_annuities": null,
+    "pensions_and_annuities_taxable_amount": null,
+    "social_security_benefits": null,
+    "social_security_benefits_taxable_amount": null,
+    "capital_gain_or_loss": null,
+    "other_income": null,
+    "total_income": null,
+    "adjustments_to_income": null,
+    "adjusted_gross_income": null,
+    "standard_deduction": {
+      "source": "20,398",
+      "value": 20398,
+      "type": "number"
+    },
+    "qualified_business_deduction": {
+      "source": "8,532",
+      "value": 8532,
+      "type": "number"
+    },
+    "taxable_income": null,
+    "tax": {
+      "source": "8814",
+      "value": 8814,
+      "type": "number"
+    },
+    "child_tax_credit": null,
+    "other_tax_including_self_employment": null,
+    "total_tax": null,
+    "federal_income_tax_withheld": {
+      "source": "4,972",
+      "value": 4972,
+      "type": "number"
+    },
+    "earned_income_credit": null,
+    "additional_child_tax_credit": null,
+    "american_opportunity_credit": null,
+    "total_other_payments": null,
+    "total_payments": {
+      "source": "4,972",
+      "value": 4972,
+      "type": "number"
+    },
+    "overpaid_amount": {
+      "source": "19",
+      "value": 19,
+      "type": "number"
+    },
+    "overpaid_refund_amount": null,
+    "routing_number": {
+      "type": "string",
+      "value": "u"
+    },
+    "account_type.checking": {
+      "type": "boolean",
+      "value": false
+    },
+    "account_type.savings": {
+      "type": "boolean",
+      "value": false
+    },
+    "account_number": null,
+    "amount_you_owe": {
+      "source": "1,663",
+      "value": 1663,
+      "type": "number"
+    },
+    "estimated_tax_penalty": {
+      "source": "23",
+      "value": 23,
+      "type": "number"
+    },
+    "signed": {
+      "type": "boolean",
+      "value": false
+    },
+    "signed_date": null,
+    "spouse_signed": {
+      "type": "boolean",
+      "value": false
+    },
+    "spouse_signed_date": null
+  },
+  "validations": [],
+  "validation_summary": {
+    "fields": 54,
+    "fields_present": 23,
+    "errors": 0,
+    "warnings": 0,
+    "skipped": 0
+  },
+  "classification_summary": [
+    {
+      "configuration": "tax_form_reference",
+      "fingerprints": 5,
+      "fingerprints_present": 3,
+      "score": {
+        "value": 23,
+        "fields_present": 23,
+        "penalties": 0
+      }
+    }
+  ],
+  "errors": [],
+  "file_metadata": {
+    "info": {
+      "modification_date": "2022-06-16T11:25:28.000-04:00"
+    }
+  }
+}
