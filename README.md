@@ -1,6 +1,6 @@
 # Easily Converting PDF to JSON
 
-The Python code main.py uses the Sensible API to extract data from a PDF document. The PDF document is assumed to be of type "tax_forms_1040_2018" or any other name you have used when creating the document type in the Sensible web application. The extracted data from this document will be returned in a JSON format.
+The Python code main.py uses the Sensible API to extract data from a PDF document. The PDF document is assumed to be of type "tax_forms" or any other name you have used when creating the document type in the Sensible web application. The extracted data from this document will be returned in a JSON format.
 
 The code begins by importing the necessary modules, `json` and `requests`. It then defines three variables: `DOCUMENT_TYPE`, `DOCUMENT_PATH`, `OUTPUT_PATH` , `ERROR_PATH` and `API_KEY`.
 
