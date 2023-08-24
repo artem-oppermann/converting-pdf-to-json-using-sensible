@@ -5,7 +5,7 @@ from pathlib import Path
 # The name of a document type in Sensible, such as "tax_document"
 DOCUMENT_TYPE = "tax_document"
 # The path to the PDF you'd like to extract from
-DOCUMENT_PATH = Path("1040_2018_sample.pdf")
+DOCUMENT_PATH = Path("1040_2020.pdf")
 # The path to save the output
 OUTPUT_PATH = Path("response.json")
 # The path to save the exception (if occurs)
