@@ -6,7 +6,7 @@ The code begins by importing the necessary modules, `json` and `requests`. It th
 
 To elaborate:
 
-- `DOCUMENT_TYPE` is the type of document to extract data from. In this case, the document type is  "tax_document".
+- `DOCUMENT_TYPE` is the type of document to extract data from. In this case, the document type is  "tax_forms".
 - `DOCUMENT_PATH` specifies the file path to the local PDF document on your computer that you'll extract data from and convert to JSON format. For this example, you'll use the [`1040_2020_sample.pdf`](https://github.com/artem-oppermann/converting-pdf-to-json-using-sensible/blob/main/1040_2020.pdf) document.
 -`OUTPUT_PATH` is the path where the response will be saved as json file
 - `ERROR_PATH` is the path where a possible exception will be saved as json file
