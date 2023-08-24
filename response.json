@@ -1,20 +1,20 @@
 {
-  "id": "f21c807e-bdad-4198-99f8-94e48a228fd2",
-  "created": "2023-06-22T07:02:29.284Z",
-  "completed": "2023-06-22T07:02:42.357Z",
+  "id": "59ac6573-7f24-41b9-925d-25a890499692",
+  "created": "2023-08-24T07:35:44.309Z",
+  "completed": "2023-08-24T07:36:00.586Z",
   "status": "COMPLETE",
   "type": "tax_document",
   "configuration": "tax_form_reference",
   "environment": "development",
-  "page_count": 2,
+  "page_count": 6,
   "parsed_document": {
     "year": {
       "type": "string",
-      "value": "2018"
+      "value": "2020"
     },
     "filing_status.single": {
       "type": "boolean",
-      "value": false
+      "value": true
     },
     "filing_status.marrid_filing_jointly": {
       "type": "boolean",
@@ -26,7 +26,7 @@
     },
     "filing_status.head_of_household": {
       "type": "boolean",
-      "value": true
+      "value": false
     },
     "filing_status.qualifying_widow": {
       "type": "boolean",
@@ -34,22 +34,22 @@
     },
     "name": {
       "type": "string",
-      "value": "Gemanna Gomez"
+      "value": "Cherry Huston, Sr"
     },
     "ssn": {
       "type": "string",
-      "value": "111-22-3333"
+      "value": "272-82-4743"
     },
     "spouse_name": null,
     "spouse_ssn": null,
     "home_street_address": {
       "type": "string",
-      "value": "13434 Doe Street"
+      "value": "104 Easy St"
     },
     "home_apartment_number": null,
     "home_city_state_zipcode": {
       "type": "string",
-      "value": "San Francisco CA 92694"
+      "value": "Gaffney SC 293404461"
     },
     "wages_salaries_tips": null,
     "tax_exempt_interest": null,
@@ -62,71 +62,114 @@
     "pensions_and_annuities_taxable_amount": null,
     "social_security_benefits": null,
     "social_security_benefits_taxable_amount": null,
-    "capital_gain_or_loss": null,
-    "other_income": null,
-    "total_income": null,
+    "capital_gain_or_loss": {
+      "source": "7",
+      "value": 7,
+      "type": "number"
+    },
+    "other_income": {
+      "source": "8",
+      "value": 8,
+      "type": "number"
+    },
+    "total_income": {
+      "source": "9",
+      "value": 9,
+      "type": "number"
+    },
     "adjustments_to_income": null,
-    "adjusted_gross_income": null,
+    "adjusted_gross_income": {
+      "source": "-300",
+      "value": -300,
+      "type": "number"
+    },
     "standard_deduction": {
-      "source": "20,398",
-      "value": 20398,
+      "source": "12,400",
+      "value": 12400,
       "type": "number"
     },
     "qualified_business_deduction": {
-      "source": "8,532",
-      "value": 8532,
+      "source": "13",
+      "value": 13,
       "type": "number"
     },
-    "taxable_income": null,
-    "tax": {
-      "source": "8814",
-      "value": 8814,
+    "taxable_income": {
+      "source": "0",
+      "value": 0,
       "type": "number"
     },
-    "child_tax_credit": null,
-    "other_tax_including_self_employment": null,
-    "total_tax": null,
-    "federal_income_tax_withheld": {
-      "source": "4,972",
-      "value": 4972,
-      "type": "number"
-    },
-    "earned_income_credit": null,
-    "additional_child_tax_credit": null,
-    "american_opportunity_credit": null,
-    "total_other_payments": null,
-    "total_payments": {
-      "source": "4,972",
-      "value": 4972,
-      "type": "number"
-    },
-    "overpaid_amount": {
+    "tax": null,
+    "child_tax_credit": {
       "source": "19",
       "value": 19,
       "type": "number"
     },
-    "overpaid_refund_amount": null,
+    "other_tax_including_self_employment": {
+      "source": "0",
+      "value": 0,
+      "type": "number"
+    },
+    "total_tax": {
+      "source": "0",
+      "value": 0,
+      "type": "number"
+    },
+    "federal_income_tax_withheld": null,
+    "earned_income_credit": {
+      "source": "27",
+      "value": 27,
+      "type": "number"
+    },
+    "additional_child_tax_credit": {
+      "source": "28",
+      "value": 28,
+      "type": "number"
+    },
+    "american_opportunity_credit": {
+      "source": "29",
+      "value": 29,
+      "type": "number"
+    },
+    "total_other_payments": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "total_payments": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "overpaid_amount": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "overpaid_refund_amount": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
     "routing_number": {
       "type": "string",
-      "value": "u"
+      "value": "0 8 2 9 0 8 5 7 3"
     },
     "account_type.checking": {
       "type": "boolean",
-      "value": false
+      "value": true
     },
     "account_type.savings": {
       "type": "boolean",
       "value": false
     },
-    "account_number": null,
-    "amount_you_owe": {
-      "source": "1,663",
-      "value": 1663,
-      "type": "number"
+    "account_number": {
+      "type": "string",
+      "value": "4 4 6 5 5 5 5"
     },
+    "amount_you_owe": null,
     "estimated_tax_penalty": {
-      "source": "23",
-      "value": 23,
+      "source": "38",
+      "value": 38,
       "type": "number"
     },
     "signed": {
@@ -143,7 +186,7 @@
   "validations": [],
   "validation_summary": {
     "fields": 54,
-    "fields_present": 23,
+    "fields_present": 34,
     "errors": 0,
     "warnings": 0,
     "skipped": 0
@@ -152,10 +195,10 @@
     {
       "configuration": "tax_form_reference",
       "fingerprints": 5,
-      "fingerprints_present": 3,
+      "fingerprints_present": 6,
       "score": {
-        "value": 23,
-        "fields_present": 23,
+        "value": 34,
+        "fields_present": 34,
         "penalties": 0
       }
     }
@@ -163,7 +206,10 @@
   "errors": [],
   "file_metadata": {
     "info": {
-      "modification_date": "2022-06-16T11:25:28.000-04:00"
+      "creator": "Intuit Inc. FPS Engine v4 (4.3.12 12/03/2020 09:47 AM)",
+      "producer": "iText 2.1.7 by 1T3XT",
+      "creation_date": "2021-02-16T04:19:33.000-08:00",
+      "modification_date": "2021-02-16T04:19:33.000-08:00"
     }
   }
 }
