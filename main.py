@@ -2,8 +2,8 @@ import json
 import requests
 from pathlib import Path
 
-# The name of a document type in Sensible, such as "tax_document"
-DOCUMENT_TYPE = "tax_document"
+# The name of a document type in Sensible, such as "tax_forms"
+DOCUMENT_TYPE = "tax_forms"
 # The path to the PDF you'd like to extract from
 DOCUMENT_PATH = Path("1040_2020.pdf")
 # The path to save the output
